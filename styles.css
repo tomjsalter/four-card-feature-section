@@ -1,0 +1,116 @@
+/* CSS RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* MOBILE DEVICES*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #4d4f62;
+  background-color: #FAFAFA;
+  margin: 85px 32px 78px;
+}
+
+/* HEADER INTRODUCTION */
+.main-header {
+  max-width: 480px;
+  margin: 85px auto 76px;
+}
+.head-title {
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 0.17px;
+  margin-bottom: 16px;
+}
+.head-title-bold {
+  font-weight: 600;
+}
+.head-intro {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(77, 79, 98, 0.5);
+  letter-spacing: -0.1px;
+}
+
+/* CARD STYLING */
+.card {
+  position: relative;
+  height: 222px;
+  width: 311px;
+  background-color: white;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 28px;
+}
+.green {
+  border-top: 3.5px #44d3d2 solid;
+}
+.red {
+  border-top: 3.5px #ea5454 solid;
+}
+.orange {
+  border-top: 3.5px #fcae4a solid;
+}
+.blue {
+  border-top: 3.5px #549ef2 solid;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+.card-info {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  color: rgba(77, 79, 98, 0.5);
+  text-align: left;
+}
+.card-icon {
+  position: absolute;
+  right: 28px;
+  bottom: 28px;
+}
+
+/* TABLET DEVICES */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-header {
+    max-width: 540px;
+    margin: 80px auto 64px;
+  }
+} 
+
+/* LAPTOP & DESKTOP SCREENS */
+@media screen and (min-width: 1200px) {
+  .head-title {
+    font-size: 36px;
+    letter-spacing: 0.25px;
+  }
+  .card-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .card {
+    height: 250px;
+    width: 350px;
+  }
+  .green {
+    margin-right: 30px;
+  }
+  .red {
+    margin-bottom: 30px;
+  }
+  .blue {
+    margin-left: 30px;
+  }
+}
